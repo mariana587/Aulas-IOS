@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(4, 104, 253);
+    color: aliceblue;
+    text-align: center;
+    border-radius: 10px;
+}
+
+nav {
+    text-align: center;
+    background-color: rgb(4, 104, 253);
+    padding: 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    border: 5px solid;
+    background-color: rgb(70, 167, 252);
+    border-radius: 10px;
+    gap: 250px;
+    align-items: center;
+    text-align: center;
+
+}
+
+nav ul li {
+    font-size: 0px;
+    letter-spacing: 6px;
+    ;
+}
+
+a {
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: 100;
+    font-style: italic;
+    color: rgb(0, 55, 252);
+}
+
+nav ul img {
+    width: 10%;
+}
+
+main section {
+    background-color: rgb(70, 167, 252);
+    color: rgb(0, 0, 0);
+    border: 5px solid rgb(255, 255, 255);
+    margin: 30px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+main section h1 {
+    font-size: 100px;
+    margin: 10px;
+}
+
+main section p {
+    font-size: 25px;
+    line-height: 35px ;
+    background-color: rgb(70, 167, 252);
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+    gap: 10px;
+    text-indent: 15px;
+    text-align: justify;
+    box-shadow: 3px 3px rgb(255, 255, 255);
+    border-radius: 10px;
+
+
+}
+section p:hover{
+    color: rgb(4, 0, 255);
+}
+
+samp {
+    color: rgb(37, 14, 252);
+}
+main section form{
+    border-radius: 10px;
+    background-color: rgb(70, 167, 252);
+    display: grid;
+}
+footer{
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+}
