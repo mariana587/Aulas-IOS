@@ -23,7 +23,7 @@ span{
 
 
 body {
-    background-color: #341010;
+    background-color: #eebebe;
     color: aliceblue;
     text-align: center;
 }
@@ -31,7 +31,7 @@ body {
 
 .cabecalho {
     background-color: #920909;
-    text-align: center;
+    text-align: left;
     font-style: italic;
     width: 100%;
     height: 100%;
@@ -62,4 +62,9 @@ body {
     list-style: none;
     gap: 32px;
     justify-content: center;
+}
+
+
+.imagem {
+    text-align: left;
 }
