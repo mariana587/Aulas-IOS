@@ -23,10 +23,21 @@ span{
 
 
 body {
-    background-color: #eebebe;
+    background-color: #aa6767;
     color: aliceblue;
     text-align: center;
 }
+
+
+
+
+
+/* .cabecalho {
+    border: #214ea3;
+    display: inline-block;
+    padding: 10rem;
+    background-color: rgb(100, 34, 34);
+}  */
 
 
 .cabecalho {
@@ -35,9 +46,47 @@ body {
     font-style: italic;
     width: 100%;
     height: 100%;
+    margin-bottom: 5rem;
 }
 
+
+
+.menu {
+    
+    display: flex;
+    list-style: none;
+    gap: 56px;
+    justify-content: center;
+    
+}
+
+
+.secao{
+    border: #214ea3;
+    display: inline-block;
+    padding: 10rem;
+    background-color: rgb(100, 34, 34);
+    margin-top: 20rem 8rem 8rem 8rem;
+}
+
+
 .link {
+    text-decoration: none;
+    color: #120308;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imagem1 {
+    border-radius: 1.5rem;
+    position: fixed;
+    right: 0;
+    left: 4rem;
+}
+
+
+
+/* .link {
     text-decoration: none;
     color: #120308;
     font-size: xx-large;
@@ -67,4 +116,7 @@ body {
 
 .imagem {
     text-align: left;
-}
+} */
+
+
+
