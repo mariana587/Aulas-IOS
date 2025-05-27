@@ -6,38 +6,22 @@
 }
 
 
-:root {
-    --cor-brilho: #ffffff;
-    --cor-nova: rgb(156, 0, 78);
-    --cor-nba: #2b031d;
-}
-
-span{
-    background: linear-gradient(
-        270deg,
-        #b46c6c,
-         #9d1313);
-    color: transparent;
-    background-clip: text;
-}
-
-
 body {
-    background-color: #5d0000;
+    background-image: url(vogue.jpg);
     color: aliceblue;
     text-align: center;
 }
 
 
 
-
-
-/* .cabecalho {
-    border: #214ea3;
-    display: inline-block;
-    padding: 10rem;
-    background-color: rgb(100, 34, 34);
-}  */
+.prada {
+    border-radius: 0.5rem;
+    background-color: #000000;
+    padding: 2rem;
+    height: 400px;
+    display: flex;
+    margin-left: 30rem;
+}
 
 
 .cabecalho {
@@ -48,6 +32,21 @@ body {
     height: 100%;
     margin-bottom: 5rem;
     padding: 2.5rem;
+}
+
+
+.navegador {
+
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.925);
+    z-index: 1000;
+    justify-content: space-around;
+
+
 }
 
 
@@ -63,7 +62,6 @@ body {
 
 
 .secao{
-    border: #214ea3;
     display: inline-block;
     padding: 10rem;
     background-color: rgb(0, 0, 0);
@@ -72,27 +70,24 @@ body {
     box-shadow: 0 0 25px var(--cor-brilho);
     transition: 0.4s ease-in-out;
 }
+.secao:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 5px 15px #e2c3c3;
+}
 
 
 .link {
     text-decoration: none;
-    color: #db9a9a;
+    color: #991a1a;
     font-size: xx-large;
     font-family: 'Times New Roman', Times, serif;
-}
-
-.imagem1 {
-    border-radius: 1.5rem;
-    position: fixed;
-    margin-top: 2rem;
-    margin-right: 0;
 }
 
 
 .titulo {
     font-size: xx-large;
     font-family: 'Times New Roman', Times, serif;
-    color: #cdaeb8;
+    color: #8f0f0f;
 }
 
 .p1{
@@ -101,7 +96,7 @@ body {
     margin-right:6rem;
     font-size: larger;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background: linear-gradient(45deg, #ab2929, #f3dceb);
+    background: linear-gradient(45deg, #a10505, #da8a8a);
     margin:4rem ;
     border-radius: 3rem; 
     display: inline-block;
@@ -111,7 +106,6 @@ body {
 
 
 .secao02 {
-    border: #214ea3;
     display: inline-block;
     padding: 10rem;
     background-color: rgb(0, 0, 0);
@@ -130,51 +124,73 @@ body {
 
 
 .img4 {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 4rem;
+    border-radius: 4rem;
+     background: linear-gradient(45deg, #a10505, #da8a8a);
+     display: inline-block;
+     padding: 0.5rem;
+
 
 }
 
 
-
-
-
-
-
-
-
-
-/* .link {
-    text-decoration: none;
-    color: #120308;
-    font-size: xx-large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.secao03 { 
+    display: inline-block;
+    padding: 10rem;
+    background-color: rgb(0, 0, 0);
+    margin:6rem 10rem 5rem 10rem;
+    border-radius: 3rem;
+    box-shadow: 0 0 25px var(--cor-brilho);
+    transition: 0.4s ease-in-out;
+    color: #e76969;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    
 }
 
-.navegador {
 
-    display: flex;
-    position: fixed;
-    top: 0;
+.opn {
     width: 100%;
-    padding: 25px;
-    background-color: rgba(0, 0, 0, 0.925);
-    z-index: 1000;
-    justify-content: space-around;
-}
-
-.menu {
-
-    display: flex;
-    list-style: none;
-    gap: 32px;
-    justify-content: center;
+    padding: 1rem;
+    background-color: #740202;
+    border-radius: 8px;
+    color: aliceblue;
+    font-size: larger;
 }
 
 
-.imagem {
-    text-align: left;
-} */
+
+.botao {
+    color: rgb(255, 252, 252);
+    background-color: rgb(112, 5, 5);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    transition: all 0.5 ease;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.botao:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 5px 15px #e2c3c3; 
+}
+
+
+
+.pe {
+    padding: 1rem;
+    background-color: #000000;
+    color: #5f0404;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
 
 
 
