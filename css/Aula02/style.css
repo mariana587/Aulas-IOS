@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background-color: #970404;
+    color: aliceblue;
+}
+
+
+
+.h1 {
+    margin-top: 25rem;
+    text-align: center;
+}
+
+
+.agradecimento {
+    padding: 2rem;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    border-radius: 16px;
+    border: 1px solid var(--cor-brilho);
+    backdrop-filter: blur(10px);
+    background-color: #da3c3c;
+    
+}

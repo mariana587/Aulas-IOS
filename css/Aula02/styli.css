@@ -6,6 +6,14 @@
 }
 
 
+:root {
+    --cor-brilho: #f5e3e3;
+    --cor-nova: rgb(156, 0, 78);
+    --cor-nba: #2b031d;
+}
+
+
+
 body {
     background-image: url(vogue.jpg);
     color: aliceblue;
@@ -15,7 +23,7 @@ body {
 
 
 .prada {
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     background-color: #000000;
     padding: 2rem;
     height: 400px;
@@ -71,8 +79,8 @@ body {
     transition: 0.4s ease-in-out;
 }
 .secao:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 5px 15px #e2c3c3;
+    transform: translateY(-2.5px);
+    box-shadow: 0 5px 15px #6e0202;
 }
 
 
@@ -114,12 +122,16 @@ body {
     box-shadow: 0 0 25px var(--cor-brilho);
     transition: 0.4s ease-in-out;
 }
+.secao02:hover {
+    transform: translateY(-2.5px);
+    box-shadow: 0 5px 15px #6e0202;
+}
 
 
 .titulo02 {
     margin-bottom: 6rem;
     font-family: 'Times New Roman', Times, serif;
-    color: #edb0b0;
+    color: #750909;
 }
 
 
@@ -149,6 +161,11 @@ body {
     font-family: 'Times New Roman', Times, serif;
     
 }
+.secao03:hover {
+    transform: translateY(-2.5px);
+    box-shadow: 0 5px 15px #6e0202;
+}
+
 
 
 .opn {
