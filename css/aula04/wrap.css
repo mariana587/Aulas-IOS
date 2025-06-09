@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    background-color: rgb(32, 113, 184);
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    /* Flex - Wrap faz com que o seu container flexivel distribui os items em uma nov
+    a linha ou coluna quando a tela estiver muito cheia */
+
+
+}
+
+
+.quadrado {
+    background-color: rgb(7, 212, 86);
+    border: #0d8063 solid 5px;
+    width: 200px;
+    height: 250px;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 218, 8);
+}
+
+
+#abril {
+    /* flex-grow: 1; */
+    /* flex grow faz com que o elemento cresça dentro do container de acordo com o numero digitado, lembrando que todos os itens começam com o padrao 0. Por exemplo, se coloca o valor 2, o elemento ocupara o dobro de espaço  */
+    flex-shrink: 3;
+    /* flex - shrink faz com que o ele,ento diminua mais rapidamente e afressivamente que os outros elementos */
+}
+
+
+
+#marco {
+    
+    /* flex-basis: 700px;
+    flrc basic delimita um tamanho minimo inicial para os elementos flexiveis */
+
+    flex: 1 1 300px;
+    /* flex é uma abreviação para os 4 outros elementos flex 
+    primeiro numero corresponde ao flex grow
+    segundo numero corresponde ao flex shrink
+    terceiro numero corresponde ao flex basis */
+}
+
+
+
